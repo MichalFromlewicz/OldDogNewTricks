@@ -20,11 +20,9 @@ public class MichalFBirthday {
 		
 		if (daysToMichalFBirthdayDay >0) {
 			
-			System.out.println("Do moich najbli¿szych, " + (michalFAge+1) + " urodzin pozosta³o " + daysToMichalFBirthdayDay + " dni.");
+			System.out.println("Do moich najbli¿szych, " + (michalFAge+1) + " urodzin - pozosta³o " + daysToMichalFBirthdayDay + " dni.");
 			
-			} else {
-			
-				if (daysToMichalFBirthdayDay <0) {
+			} else if (daysToMichalFBirthdayDay <0) {
 					
 				System.out.println("Do moich nastêpnych, " + (michalFAge+1) + " urodzin pozosta³o " + (daysToMichalFBirthdayDay+365) + " dni.");
 				
@@ -33,10 +31,7 @@ public class MichalFBirthday {
 			
 				}
 		
-			System.out.println("Nie zapomnij o ¿yczeniach i o prezencie dla Jubilata!");
-		
-		}
+		System.out.println("Nie zapomnij o ¿yczeniach i o prezencie dla Jubilata!");
 
 	}
-
 }
